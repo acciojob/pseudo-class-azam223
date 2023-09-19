@@ -1,14 +1,14 @@
 /*  your css code here. If applicable */
-#{
+#container{
 	margin: 20px;
 }
-p::before{
+#container::before{
 	content: "Before Element ";
 	color: #f00;
 	font-weigth: bold;
 	font-size: 20px;
 }
-p::after{
+#container::after{
 	content: " After Element";
 	color: #f00;
 	font-weigth: bold;
